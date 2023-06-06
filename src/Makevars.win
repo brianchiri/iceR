@@ -1,4 +1,4 @@
-VERSION = 3.21.12
+VERSION = 3.19.4
 COMPILED_BY ?= gcc-4.6.3
 RWINLIB = ../windows/protobuf-$(VERSION)
 TARGET = lib$(subst gcc,,$(COMPILED_BY))$(R_ARCH)
